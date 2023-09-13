@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <header>
-      <nav className="navbar">
-        <ul>
+      <nav>
+        <ul className="flex justify-evenly items-center w-full h-12">
           <li>
             <Link href={"/booking"}>
               <p>Book a table or two</p>

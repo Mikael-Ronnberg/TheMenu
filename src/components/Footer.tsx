@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <ul>
+      <ul className="flex justify-evenly items-center w-full h-12">
         <li>
           <p>Content here</p>
         </li>
