@@ -1,9 +1,10 @@
+import "./Navbar.css";
 import Link from "next/link";
 
 export default function Navbar() {
   return (
     <header>
-      <nav>
+      <nav className="navbar">
         <ul className="flex justify-evenly items-center w-full h-12">
           <li>
             <Link href={"/booking"}>
