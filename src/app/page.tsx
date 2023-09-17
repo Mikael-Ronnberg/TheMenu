@@ -8,9 +8,10 @@ export default function Home() {
     <>
       <Navbar />
       <main className="main_container">
-        <section className="hero_image"></section>
+        <img src="./assets/pexels-adrian-kaźmierski-15563412.jpg" alt="solen" />
+        <div className="hero_image"></div>
 
-        <section className="information_container">
+        <div className="information_container">
           <div className="imgtext_container">
             <div className="img1"></div>
             <p>
@@ -39,7 +40,7 @@ export default function Home() {
               enim perferendis laborum ducimus?
             </p>
           </div>
-        </section>
+        </div>
       </main>
 
       {/* <Footer /> */}

@@ -1,11 +1,15 @@
+
 .main_container {
     width: 100vw;
-    height: 100vh;
-    background-image: linear-gradient(to top, transparent 10%, rgb(15,18,15) 90%), url("../assets/pexels-adrian-kaźmierski-15563412.jpg");
-    /* transform: rotate(90deg); */
-    background-size: cover;
+    height: 200vh;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 1) 100%); */
+    background-color: linear-gradient(rgba(30, 33, 32, 0.6), rgb(30, 33, 32));
+}
+
+.main_container img {
+    object-fit: cover;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
 }
 
 .hero_image {
