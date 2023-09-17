@@ -1,5 +1,11 @@
 .main_container {
-    height: 150vh;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, transparent 10%, rgb(15,18,15) 90%), url("../assets/pexels-adrian-kaźmierski-15563412.jpg");
+    /* transform: rotate(90deg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .hero_image {
@@ -11,6 +17,7 @@
 }
 
 .information_container {
+    background: transparent;
     width: 100vw;
     outline: 2px white solid;
     height: h;
@@ -21,14 +28,15 @@
 }
 
 .imgtext_container {
+    background: transparent;
     padding: 1.5rem;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 33vw;
     height: 80vh;
+    margin: 2.5rem 0;
 }
 
 .img1 {
@@ -37,6 +45,7 @@
     background-image: url("../assets/016_TM_SG_08916.webp");
     height: 40vh;
     width: 30vw;
+    margin: 2.5rem 0;
 }
 
 .img2 {
@@ -45,6 +54,7 @@
     background-image: url("../assets/sB_uZ6Lc.webp");
     height: 40vh;
     width: 30vw;
+    margin: 2.5rem 0;
 }
 .img3 {
     background-position: center;
@@ -53,4 +63,5 @@
     background-image: url("../assets/016_TM_SG_08916.webp");
     height: 40vh;
     width: 30vw;
+    margin: 2.5rem 0;
 }

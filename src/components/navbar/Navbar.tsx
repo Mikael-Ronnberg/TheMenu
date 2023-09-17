@@ -8,7 +8,7 @@ export default function Navbar() {
         <ul className="flex justify-evenly items-center w-full h-12">
           <li>
             <Link href={"/booking"}>
-              <p>Book a table or two</p>
+              <p>Book table</p>
             </Link>
           </li>
           <li>
