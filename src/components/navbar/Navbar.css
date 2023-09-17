@@ -1,4 +1,7 @@
 .navbar {
-    background: linear-gradient(black, grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgb(30, 33, 32), rgb(13, 13, 13));
     height: 8vh; 
 }

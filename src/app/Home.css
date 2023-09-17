@@ -1,5 +1,7 @@
 .hero_image {
     width: 100%;
-    height: 50%;
-    background-image: url("../assets/HeroImage.webp")
+    height: 80vh;
+    background-image: url("../assets/HeroImage.webp");
+    background-position: center;
+    background-repeat: no-repeat;
 }
