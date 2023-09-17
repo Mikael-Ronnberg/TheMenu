@@ -7,8 +7,9 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="md:content-center items-center w-full h-screen">
+      <main className="main_container">
         <section className="hero_image"></section>
+
         <section className="information_container">
           <div className="imgtext_container">
             <div className="img1"></div>
@@ -20,7 +21,7 @@ export default function Home() {
             </p>
           </div>
           <div className="imgtext_container">
-            <div className="imgtex2"></div>
+            <div className="img2"></div>
 
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
