@@ -5,3 +5,33 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.information_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgtext_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: 35vh;
+}
+
+.img1 {
+    background-image: url("../assets/016_TM_SG_08916.webp");
+    height: 3rem;
+    width: 2,5rem
+}
+.img2 {
+    background-image: url("../assets/sB_uZ6Lc.webp");
+    height: 3rem;
+    width: 2,5rem
+}
+.img1 {
+    background-image: url("../assets/TM_07433.webp");
+    height: 3rem;
+    width: 2,5rem
+}
